@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "geocachingtools"
+version = "0.1.0"
+description = "Collection of Tools for GeoCaching"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+logging = "^0.4.9.6"
+os-sys = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
